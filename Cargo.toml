@@ -1,0 +1,25 @@
+[package]
+name = "word-type-formatter"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+# [workspace]
+# members = [
+#   "colorizer",
+#   "formatter",
+# ]
+
+[dependencies]
+formatter = {path = "formatter"}
+colorizer = {path = "colorizer"}
+config = "0.13.1"
+regex = "1"
+serde = "1"
+serde_derive = "1"
+tokio = { version = "1", features = ["full"] }
+futures = "*"
+
+# [dev-dependencies]
+# rstest = "0.12.0"

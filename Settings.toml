@@ -1,0 +1,19 @@
+[[highlight]]
+name = "time"
+regex = '\d+:\d+.\d+'
+color = 'RED'
+
+[[highlight]]
+name = "test"
+regex = 'test'
+color = 'YELLOW'
+
+[[highlight]]
+name = "word"
+regex = '[a-zA-Z]+'
+color = 'GREEN'
+
+[[highlight]]
+name = "word"
+regex = '\d+\.\d+\.\d+\.\d+'
+color = 'CYAN'

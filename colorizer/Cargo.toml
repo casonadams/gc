@@ -1,0 +1,8 @@
+[package]
+name = "colorizer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde_derive = "1"
+serde = "1"
