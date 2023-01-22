@@ -11,7 +11,7 @@ async fn main() {
     let mut replace_list: Vec<(String, String, Colors)> = vec![];
     for setting in settings.highlight {
         replace_list.push((
-            format!(r"(?-u:\b)(?P<{}>{})", setting.name, setting.regex),
+            format!(r###"(?-u:\b)(?P<{}>{})"###, setting.name, setting.regex),
             format!("${}", setting.name),
             setting.color,
         ))

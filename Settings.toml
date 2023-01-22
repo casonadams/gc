@@ -1,17 +1,22 @@
 [[highlight]]
-name = "time"
-regex = '\d+:\d+.\d+'
+name = "timestamp"
+regex = '(\d+:\d+.\d+|\w+ \d{2} \d{2}:\d{2}:\d{2})'
+color = 'CYAN'
+
+[[highlight]]
+name = "syslogd"
+regex = 'syslogd\[\d+\]'
 color = 'RED'
 
 [[highlight]]
-name = "test"
-regex = 'test'
-color = 'YELLOW'
-
-[[highlight]]
-name = "word"
-regex = '[a-zA-Z]+'
+name = "string"
+regex = '".*"'
 color = 'GREEN'
+
+# [[highlight]]
+# name = "digits"
+# regex = '\d+'
+# color = 'BLUE'
 
 [[highlight]]
 name = "word"
