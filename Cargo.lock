@@ -231,6 +231,20 @@ dependencies = [
 ]
 
 [[package]]
+name = "gc"
+version = "0.1.0"
+dependencies = [
+ "colorizer",
+ "config",
+ "formatter",
+ "futures",
+ "regex",
+ "serde",
+ "serde_derive",
+ "tokio",
+]
+
+[[package]]
 name = "generic-array"
 version = "0.14.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -800,20 +814,6 @@ name = "windows_x86_64_msvc"
 version = "0.42.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "447660ad36a13288b1db4d4248e857b510e8c3a225c822ba4fb748c0aafecffd"
-
-[[package]]
-name = "word-type-formatter"
-version = "0.1.0"
-dependencies = [
- "colorizer",
- "config",
- "formatter",
- "futures",
- "regex",
- "serde",
- "serde_derive",
- "tokio",
-]
 
 [[package]]
 name = "yaml-rust"
